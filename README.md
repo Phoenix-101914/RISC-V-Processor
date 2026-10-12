@@ -21,7 +21,6 @@ To maintain structural simplicity and accuracy, this pipeline handles hazards **
 ```text
 riscv-processor/
 ├── README.md               # Project overview and instructions
-├── docs/                   # Pipeline diagrams and ISA documentation
 ├── rtl/                    # Synthesizable Verilog design files
 │   ├── alu.v               # Arithmetic Logic Unit
 │   ├── control_unit.v      # Main decoder and ALU decoder
@@ -33,7 +32,5 @@ riscv-processor/
 │   ├── imem.v              # Instruction Memory
 │   └── dmem.v              # Data Memory
 ├── tb/                     # Verification
-│   ├── riscv_tb.sv         # SystemVerilog testbench
-│   └── test_prog.hex       # Machine code hex file for simulation
-└── scripts/                # Build and simulation scripts
-    └── Makefile
+    ├── riscv_tb.sv         # SystemVerilog testbench
+    └── test_prog.hex       # Machine code hex file for simulation
