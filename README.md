@@ -19,7 +19,7 @@ To maintain structural simplicity and accuracy, this pipeline handles hazards **
 ## Repository Structure
 
 ```text
-riscv-5stage-pipeline/
+riscv-processor/
 ├── README.md               # Project overview and instructions
 ├── docs/                   # Pipeline diagrams and ISA documentation
 ├── rtl/                    # Synthesizable Verilog design files
